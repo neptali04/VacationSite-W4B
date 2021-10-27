@@ -1,0 +1,166 @@
+body{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/vacation.jpg");
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    position: static;
+}
+nav{
+    background-color: #000;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+.logo img{
+    float: left;
+    margin-left: 3%;
+    margin-top: 5px;
+}
+
+.nav-ul{
+    list-style-type: none;
+    margin: 0;
+    float: right;
+   
+}
+.nav-li{
+    height: 70px;
+    display: inline-block;
+    font-size: 25px;
+    color: cadetblue;
+    line-height:60px;
+    padding:0 40px;
+    margin-top: 0%;
+
+}
+nav li:hover{
+    background-color: aquamarine;
+    color: #000;
+    transition: .5s;
+}
+nav li:active{
+    background-color: blue;
+    color: #fff;
+    transition: .5s;
+}
+
+section{
+    position:relative;
+    top: 35%;
+    width: 100%;
+    z-index: -1;
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+h2{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    width: 30%;
+    position: relative;
+    left: 35%;
+}
+.banner-section{
+    background-color: #000;
+    position:absolute;
+    text-align: center;
+    top: 80%;
+}
+.banner-section h1{
+    color: #fff;
+}
+.banner-section a button{
+    background-color: cadetblue;
+    border: 3px solid #fff;
+    color: #fff;
+    height: 50px;
+    width: 150px;
+}
+.banner-section a button:visited{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.banner-section a button:hover{
+    background-color: #fff;
+    border: 3px solid cadetblue;
+    color: cadetblue;
+    transition: .5s;
+}
+.banner-section a button:active{
+    background-color: cadetblue;
+    border: 3px solid #fff;
+    color: #000;
+    transition: .5s;
+}
+.row{
+    width: 91%;
+    height: 500px;
+    background-color: #fff;
+    position: relative;
+    top: 83%;
+    padding: 5%;
+}
+.row .card{
+    height: 400px;
+    width: 400px;
+    float: left;
+    margin: 0px 5%;
+    background-color: black;
+    border: 3px solid #fff;
+}
+.card img.boat1-img{
+    width: 55%;
+    height: 55%;
+    margin: 30px 90px;
+}
+.card p{
+    color: #fff;
+    font-size: 20px;
+    width: 250px;
+    margin: 0px 80px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    background-color: #000;
+    border-top: 5px solid cadetblue;
+}
+.social-media{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.fa-facebook, .fa-instagram, .fa-twitter{
+    color: #fff;
+    margin: 10px;
+}
+.fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover{
+    color: cadetblue;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Query for 750px */
+@media only screen and (max-width: 750px) {
+    section h2{
+        font-size: 18px;  
+    }
+}
