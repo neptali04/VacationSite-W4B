@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/vacation.jpg");
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/neptali04/VacationSite-W4B/main/img/vacation.jpg");
     background-size: 100% 90%;
     background-repeat: no-repeat;
     background-color: #000000;
